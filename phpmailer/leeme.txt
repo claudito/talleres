@@ -1,0 +1,4 @@
+Datos de Gmail:
+
+user: notificacionperutec@gmail.com
+pass: botellaazul

@@ -1,0 +1,64 @@
+html
+{
+
+margin:0;
+padding: 0;
+height: 100%;
+width: 100%;
+font-family: 'Arial Narrow','Arial','Helvetica','sans-serif'
+
+
+}
+
+body{
+
+font-family: 'Arial','Helvetica','sans-serif',
+margin : 4mm 2mm 3mm 3mm;
+font-size: 12px
+
+
+}
+
+.table_report{
+
+width: 100%;
+border-collapse: collapse;
+padding: 5px;
+padding-left: 40px;
+
+
+}
+
+.column{
+
+ border: 1px solid #000;
+ padding: 3px;
+
+
+
+}
+
+
+.center
+{
+
+text-align: center;
+
+
+}
+
+
+.right
+{
+
+text-align: right;
+
+}
+
+
+.left{
+
+text-align: left;
+
+
+}
