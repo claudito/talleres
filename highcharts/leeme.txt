@@ -1,0 +1,13 @@
+# Pasos para crear un gráfico con highcharts, donde la información la vamos a leer de un BD
+
+1. Configurar la librería(Js)
+
+2. Manejo de Elementos/Objetos JSON PHP7/JavaScript
+
+3. PHP7 + PDO (Conexion a la Base de Datos)
+
+4. Consumir un arreglo JSON en JS (Jquery)
+
+
+Nota: Los string en JSON debe ser comillas dobles("")
+

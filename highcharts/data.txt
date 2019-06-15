@@ -1,0 +1,14 @@
+[
+
+{"campo":"chrome","valor":80.20},
+
+{"campo":"mozilla","valor":70},
+
+{"campo":"opera","valor":90},
+
+{"campo":"Internet Explore","valor":45},
+
+{"campo":"Safari","valor":10}
+
+]
+

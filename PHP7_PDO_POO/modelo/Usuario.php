@@ -29,7 +29,7 @@ function consulta($id)
 try {
 
 $conexion  = $this->get_conexion();
-$query     = "SELECT * FROM usuario WHERE id=:id";
+$query     = "SELECT id,nombres,apellidos,dni,direccion,fecha_nacimiento,fecha_creacion FROM usuario WHERE id=:idx";
 $statement =  $conexion->prepare($query);
 $statement->bindParam(':id',$id);
 $statement->execute();
@@ -38,7 +38,9 @@ return $result;
 
 } catch (Exception $e) {
 
-echo "Error: ".$e->getMessage();
+//echo "Error: ".$e->getMessage()."<br> File: ".$e->getFile()."<br> Line: ".$e->getLine()."<br>".$e->getCode()."<br>".$e->getTrace();
+
+ var_dump($e);
 	
 }
 

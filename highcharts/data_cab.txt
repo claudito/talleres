@@ -1,0 +1,18 @@
+[
+
+{"campo":"Chrome","valor":80.20,"drilldown": "Chrome"},
+
+{"campo":"Firefox","valor":70,"drilldown": "Firefox"},
+
+{"campo":"Opera","valor":90,"drilldown": "Opera"},
+
+{"campo":"Internet Explorer","valor":45,"drilldown": "Internet Explorer"},
+
+{"campo":"Safari","valor":10,"drilldown": "Safari"},
+
+{"campo":"Edge","valor":10,"drilldown": "Edge"},
+
+{"campo":"Other","valor":10,"drilldown": "Other"}
+
+]
+

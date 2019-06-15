@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+	<meta charset="UTF-8">
+	<title>Gráfico de Pie</title>
+
+<!-- HighCharts -->
+
+<script src="https://code.jquery.com/jquery-3.1.1.min.js"></script>
+<script src="https://code.highcharts.com/highcharts.js"></script>
+<script src="https://code.highcharts.com/modules/exporting.js"></script>
+<script src="https://code.highcharts.com/modules/export-data.js"></script>
+
+</head>
+<body>
+
+<div  id="container"></div>
+
+<script>
+
+//Elemento de Tipo Array
+elemento = new Array();
+
+//Consumir JSON
+$.getJSON('data.php',{},function(data){
+
+//Recorrer Array JSON
+data.forEach(function (row){
+
+//Agregar Elementos al array elemento
+elemento.push([row.campo,row.valor]);
+
+});
+
+//console.log(elemento);
+
+// Inicio de Gráfico
+Highcharts.chart('container', {
+    chart: {
+        plotBackgroundColor: null,
+        plotBorderWidth: null,
+        plotShadow: false,
+        type: 'pie'
+    },
+    title: {
+        text: 'Ventas por Canal'
+    },
+    tooltip: {
+        pointFormat: '{series.name}: <b>{point.percentage:.1f}%</b>'
+    },
+    plotOptions: {
+        pie: {
+            allowPointSelect: true,
+            cursor: 'pointer',
+            dataLabels: {
+                enabled: false
+            },
+            showInLegend: true
+        }
+    },
+    series: [{
+        name: 'Porcentaje',
+        colorByPoint: true,
+        data: elemento
+
+
+    }]
+});
+
+
+// Fin de Gráfico
+
+});
+
+
+
+</script>
+</body>
+</html>

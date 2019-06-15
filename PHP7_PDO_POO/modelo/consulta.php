@@ -4,7 +4,7 @@ include'Conexion.php';
 include'Usuario.php';
 
 $usuario    =  new Usuario();
-$consulta   =  $usuario->consulta(1);
+$consulta   =  $usuario->consulta(2);
 
 //var_dump($consulta);
 

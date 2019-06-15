@@ -1,0 +1,37 @@
+# Pasos para utilizar escpos / Imprimir
+
+1. Descargar librería ESC/POS Print Driver for PHP de mike32(Michael Billington) vía composer:
+
+- composer require mike42/escpos-php
+
+- Documentación:https://github.com/mike42/escpos-php
+
+2. Instalar Impresora(Térmica / Matricial) con todo sus drivers de acuerdo a su fabricante y probar que funcione(Impresión de Prueba).
+
+3. Compartir Impresora:
+
+- USB:Crear un recurso compartido y verificar que se pueda acceder al recurso compartido.Por ejm:\\192.168.1.6\bixolon
+
+- Red:Verificar el acceso a la Impresora en Red.Por ejm:\\192.168.1.6
+
+
+4. Crear Aplicación de Impresión
+
+¿Qué necesitamos?
+- Apache + PHP7 + MySQL/MariaDB
+- Bootstrap 4
+- Jquery 
+- PHP 7 + PDO - Manejo de Arrays
+- JSON encode, decode
+- Consola de desarrollo de navegador(chrome)
+- composer(Gestor de dependencias)
+- git
+
+
+5. Para la impresión de un Servidor Remoto, vamos a crear una especie de API local que se comunicara con el Servidor Local:
+
+- Utilizaremos chrome como navegador y una extensión para consumir recursos externos: 
+* https://chrome.google.com/webstore/detail/allow-control-allow-origi/nlfbmbojpeacfghkpbjhddihlkkiljbi
+
+* Documentación: mozilla
+https://developer.mozilla.org/es/docs/Web/HTTP/Headers/Access-Control-Allow-Origin
