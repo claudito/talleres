@@ -1,0 +1,44 @@
+Conocimientos Previos:
+
+- PHP 7 + PDO
+- Manejo de Arrays PHP
+- HTML5 
+- JavaScript(Jquery)
+- PHPEXCEL (No Activo)
+- BD
+
+🗓 Semana 01 : Cloud y Dominio
+- Creación y configuración de un (Droplet) - Ubuntu Server
+- Enlazar VPS y Dominio 
+- Instalación y Configuración de LAMP
+- Creación de SubDominios
+- Creación de Certificados Digitales(Let's Encrypt) para Dominio y SubDominios
+- Instalación PHPMyadmin
+
+🗓 Semana 02: Servicios
+- Configuración MySQL Server
+- Habilitar MySQLServer para Conexiones Remotas
+- Instalación y Configuración de SQLServer
+- Instalación de git y github
+
+🗓 Semana 03: Aplicaciones
+- Instalación de Librería PDO para conexión PHP 7 y SQLServer
+- Migrar de PHP 7 a 7.1 o más
+- Instalación de CURL
+- Instalación de Composer
+- Instalación de Git
+- Instalación de Github
+
+🗓 Semana 04: Entorno de Desarrollo (Windows)
+- Instalación de: 
+- Xampp
+- Sublime Text 3
+- Git y Github
+- Composer
+- Mi primera App con PHP 7 + PDO + MySQL
+- Mi primera App con PHP 7 + PDO + SQLServer
+- Subir Aplicaciones a github.com
+- Clonar Proyecto a VPS
+- Actualización y Mantenimiento en VPS
+
+👉Herramientas:
